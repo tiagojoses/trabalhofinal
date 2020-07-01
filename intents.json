@@ -1,0 +1,67 @@
+{"intents": [
+        {
+                "tag": "boas-vindas",
+                "patterns": ["Oi", "Como você está", "Tem alguém ai?", "Olá", "Bom dia", "Boa tarde","Boa noite", "Tudo bem?", "E ai?", "Fala?"],
+                "responses": ["Olá! Sou o Bot do corona virus! O que você deseja?", " Sou o Corona virus bot! Bom te ver novamente por aqui! Como posso te ajudar?", "Olá, sou o corona virus bot! Como posso ajudar?"],
+                "context_set": ""
+        },
+        {
+                "tag": "ate-mais",
+                "patterns": ["tchau", "Até mais", "Até mais", "Vou embora", "Tenha um bom dia", "Tenha um boa tarde", "Tenha um boa noite", "Tenha um excelente dia", "falou", "fui"],
+                "responses": ["Que pena! :( Até mais!", "A gente se fala depois", "Tchau!"],
+                "context_set": ""
+        },
+        {
+                "tag": "dicas",
+                "patterns": ["dicas", "quero saber dicas", "quais são as dicas?", "por favor me de dicas", "preciso de dicas", "dicas sobre o corona", "corona dicas", "dicas atuais", "o que a oms diz", "me de dicas"],
+                "responses": [""],
+                "context_set": ""
+        },
+        {
+                "tag": "cidade",
+                "patterns": ["Qual a cidade mais afetada?", "cidade mais afetada", "pior cidade corona", "cidade mais mortes", "cidade com mais casos", "cidade com mais falecimentos", "cidade com mais gente morrendo", "cidade com mais casos de covid", "cidade covid", "cidade com mais covid"],
+                "responses": ["A cidade com mais mortes com Covid é São paulo com 2.247"],
+                "context_set": ""
+        },
+        {
+                "tag": "pais-brasil",
+                "patterns": ["casos confirmado no Brasil", "Confirmado no Brasil", "Corona no brasil", "como esta o corona virus no Brasil", "Brasil possui quantos casos", "como o Brasil esta com o corona virus", "quantos casos ate hoje no Brasil", "Casos de corona virus no Brasil", "Brasil possui quantos casos", "casos de corona virus no pais Brasil"],
+                "responses": [""],
+                "context_set": ""
+        },
+        {
+                "tag": "o-que-corona",
+                "patterns": ["o que é corona virus?", "o que é corona?", "o que é covid?", "o que é covid 19?", "o que é virus covid", "o que é o virus corona?", "corona virus?", "covid", "covid 19", "corona"],
+                "responses": ["Segundo a Organização Mundial da Saúde (OMS), coronavírus é uma família de vírus que pode causar doenças em animais ou humanos. Em humanos, esses vírus provocam infecções respiratórias que podem ser desde um resfriado comum até doenças mais severas como a Síndrome Respiratória do Oriente Médio (MERS) e a Síndrome Respiratória Aguda Grave (SARS). O novo coronavírus causa a doença chamada COVID-19."],
+                "context_set": ""
+        },
+
+        {
+                "tag": "ficar-em-casa",
+                "patterns": ["devo ficar em casa?", "por que devo ficar em casa?", "fico em casa?", "quero sair de casa", "não aguento mais ficar em casa?", "quando posso sair de casa?", "por que preciso ficar em casa?", "não quero ficar em casa?", "esta chato ficar em casa?", "isolamento social funciona?"],
+                "responses": ["Ficar em casa é a melhor maneira de prevenir o coronavírus"],
+                "context_set": ""
+        },
+
+        {
+                "tag": "sintomas",
+                "patterns": ["Quais são os sintomas?", "Sintomas", "Quero saber sintomas", "O que sinto se estou com corona", "O que sinto com covid", "o que sinto com corona", "estou com corona?", "estou com covid?", "posso estar com covid", "posso estar com corona"],
+                "responses": [""],
+                "context_set": ""
+        },
+
+        {
+                "tag": "mortes",
+                "patterns": ["quantos mortos?", "quantas pesoas já morreram?", "quantidade de pessoas mortas", "pessoas falecidas decorrente do corona virus", "dados de mortes corona virus no Brasil", "dados de mortes", "quantidades de obitos", "quantidade de pessoas que vieram a morrer?", "pessoas mortas", "já morreram quantas pessoas?"],
+                "responses": [""],
+                "context_set": ""
+        },
+        
+        {
+                "tag": "mundo",
+                "patterns": ["casos confirmado no mundo", "Confirmado no mundo", "Corona no mundo", "como esta o corona virus no mundo", "mundo possui quantos casos", "como o mundo esta com o corona virus", "quantos casos ate hoje no mundo", "Casos de corona virus no mundo", "mundo possui quantos casos", "casos de corona virus no pais mundo"],
+                "responses": [""],
+                "context_set": ""
+        }
+   ]
+}
